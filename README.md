@@ -23,7 +23,7 @@ A problem like this can be formulated as follows:
 #### Building the Search Tree
 The building of the Search Tree is based on the five actions (successor function) and it is seperated into two different categories based on the coast of the river where the boat is located(left,right)
 
-If the boat is on the right the possible moves are:
+If the boat is on the either side {Right,Left} the **Possible Moves** are:
 1. Move 2 Missionaries
 2. Move 2 Cannibals
 3. Move 1 Missionary
