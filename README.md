@@ -14,8 +14,8 @@ The purpose of this project is to implement and solve the problem of Missionarie
 A problem like this can be formulated as follows:
 
 * States:
-⋅⋅* Boat State (position):
-⋅⋅* Game State (Missinaries and cannibals):
+	* Boat State (position):
+	* Game State (Missinaries and cannibals):
 * Initial State:
 * Syccessor function:
 * Goal test:
