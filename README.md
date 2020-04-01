@@ -17,11 +17,20 @@ A problem like this can be formulated as follows:
 	* **Game State (Missinaries and Cannibals):** The number of Missionaries and Cannibals in the left coast of the river.
 * **Initial State:** 3 Missionaries and 3 Cannibals in the left coast of the river.
 * **Successor function:** All legal states where #Missionaries > #Cannibals on other side from trying the five actions (MM,CC,MC,M,C).
-* **Goal test:** (aka Goal state) 3 Missionaries and 3 Cannibals in the right coast of the river.
+* **Goal test (aka Goal state)** 3 Missionaries and 3 Cannibals in the right coast of the river.
 * **Path Cost:** Each step costs 1, the path cost is the number of steps in the path towards the goal (Figure 1).
 
 #### Building the Search Tree
+The building of the Search Tree is based on the five actions (successor function) and it is seperated into two different categories based on the coast of the river where the boat is located(left,right)
 
+If the boat is on the right the possible moves are:
+1. Move 2 Missionaries
+2. Move 2 Cannibals
+3. Move 1 Missionary
+4. Move 1 Cannibal
+5. Move 1 Missionary and 1 Cannibal
+
+**Attention!** All these moves lead to a legal state ONLY IF they don't violate the RULE ( #Missionaries > #Cannibals )
 
 #### Implementing the breath-first Search
 In this project I implemented a **breath-first search**.
