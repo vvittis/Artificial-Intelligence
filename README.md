@@ -13,11 +13,11 @@ The purpose of this project is to implement and solve the problem of Missionarie
 ### Implementation
 A problem like this can be formulated as follows:
 
-⋅⋅* States:
-⋅⋅* Initial State:
-⋅⋅* Syccessor function:
-⋅⋅* Goal test:
-⋅⋅* Path Cost:
+* States:
+* Initial State:
+* Syccessor function:
+* Goal test:
+* Path Cost:
 In this project I implement a breath-first search.
 
 ### How to run it
