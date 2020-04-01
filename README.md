@@ -21,6 +21,7 @@ A problem like this can be formulated as follows:
 * **Path Cost:** Each step costs 1, the path cost is the number of steps in the path towards the goal (Figure 1).
 
 #### Missionaries / Cannibals Search Graph 
+![alt text](MissionariesAndCannibals/Photos/Note1.png "Photo")
 
 
 #### Building the Search Tree
