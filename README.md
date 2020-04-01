@@ -12,13 +12,13 @@ The purpose of this project is to implement and solve the problem of Missionarie
 
 ### Implementation
 A problem like this can be formulated as follows:
-* States:
-	* Boat State (position): original is left coast and the final is right coast.
-	* Game State (Missinaries and Cannibals): The number of Missionaries and Cannibals in the left coast of the river.
-* Initial State: 3 Missionaries and 3 Cannibals in the left coast of the river.
-* Syccessor function: All legal states where #Missionaries > #Cannibals on other side from trying the five actions (MM,CC,MC,M,C).
-* Goal test: (aka Goal state) 3 Missionaries and 3 Cannibals in the right coast of the river.
-* Path Cost: Each step costs 1, the path cost is the number of steps in the path towards the goal (Figure 1).
+* **States:**
+	* **Boat State** (position): original is left coast and the final is right coast.
+	* **Game State (Missinaries and Cannibals):** The number of Missionaries and Cannibals in the left coast of the river.
+* **Initial State:** 3 Missionaries and 3 Cannibals in the left coast of the river.
+* **Successor function:** All legal states where #Missionaries > #Cannibals on other side from trying the five actions (MM,CC,MC,M,C).
+* **Goal test:** (aka Goal state) 3 Missionaries and 3 Cannibals in the right coast of the river.
+* **Path Cost:** Each step costs 1, the path cost is the number of steps in the path towards the goal (Figure 1).
 
 #### Building the Search Tree
 
