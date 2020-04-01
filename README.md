@@ -20,7 +20,7 @@ A problem like this can be formulated as follows:
 * **Goal test (aka Goal state):** 3 Missionaries and 3 Cannibals in the right coast of the river.
 * **Path Cost:** Each step costs 1, the path cost is the number of steps in the path towards the goal (Figure 1).
 
-##### Missionaries / Cannibals Search Graph 
+#### Missionaries / Cannibals Search Graph 
 
 
 #### Building the Search Tree
