@@ -42,6 +42,9 @@ The General Idea of Breath-First Search is to traverse the Searching Tree, exami
 
 
 ### How to run it
+#### Mac / Linux
+
+#### Windows
 
 python main.py
 
