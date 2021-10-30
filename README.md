@@ -11,7 +11,7 @@ Three missionaries and three cannibals wish to cross a river using a two person 
 The purpose of this project is to implement and solve the problem of Missionaries and Cannibals optimally using an appropriate search algorithm. 
 
 ### Implementation
-A problem like this can be formulated as follows:
+A problem like this can be formulated as follows: 
 * **States:**
 	* **Boat State (position):** original is left coast and the final is right coast.
 	* **Game State (Missinaries and Cannibals):** The number of Missionaries and Cannibals in the left coast of the river.
